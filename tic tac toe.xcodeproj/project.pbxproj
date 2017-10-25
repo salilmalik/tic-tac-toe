@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A1F35561EDAF5F800521B10 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F35551EDAF5F800521B10 /* FancyButton.swift */; };
+		8A25E7681EE1F30600BF7E93 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A25E7671EE1F30600BF7E93 /* GoogleMobileAds.framework */; };
+		8A25E76A1EE1F3AC00BF7E93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A25E7691EE1F3AC00BF7E93 /* GoogleService-Info.plist */; };
 		8A6F68571E862EBC00045F7F /* VSComputerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F68561E862EBC00045F7F /* VSComputerGame.swift */; };
 		8AF2D8361E7EA9770051C137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2D8351E7EA9770051C137 /* AppDelegate.swift */; };
 		8AF2D8381E7EA9770051C137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2D8371E7EA9770051C137 /* ViewController.swift */; };
@@ -15,11 +17,13 @@
 		8AF2D83D1E7EA9770051C137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2D83C1E7EA9770051C137 /* Assets.xcassets */; };
 		8AF2D8401E7EA9770051C137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2D83E1E7EA9770051C137 /* LaunchScreen.storyboard */; };
 		8AF2D8481E7EAD720051C137 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2D8471E7EAD720051C137 /* Game.swift */; };
-		8AF9414F1E8A2EC500B72E19 /* NearbuyGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9414E1E8A2EC500B72E19 /* NearbuyGame.swift */; };
+		8AF9414F1E8A2EC500B72E19 /* NearbyGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9414E1E8A2EC500B72E19 /* NearbyGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A1F35551EDAF5F800521B10 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		8A25E7671EE1F30600BF7E93 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		8A25E7691EE1F3AC00BF7E93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8A6F68561E862EBC00045F7F /* VSComputerGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSComputerGame.swift; sourceTree = "<group>"; };
 		8AF2D8321E7EA9770051C137 /* tic tac toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tic tac toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF2D8351E7EA9770051C137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +33,7 @@
 		8AF2D83F1E7EA9770051C137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF2D8411E7EA9770051C137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AF2D8471E7EAD720051C137 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		8AF9414E1E8A2EC500B72E19 /* NearbuyGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbuyGame.swift; sourceTree = "<group>"; };
+		8AF9414E1E8A2EC500B72E19 /* NearbyGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A25E7681EE1F30600BF7E93 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,7 @@
 		8AF2D8291E7EA9760051C137 = {
 			isa = PBXGroup;
 			children = (
+				8A25E7671EE1F30600BF7E93 /* GoogleMobileAds.framework */,
 				8AF2D8341E7EA9770051C137 /* tic tac toe */,
 				8AF2D8331E7EA9770051C137 /* Products */,
 			);
@@ -62,11 +68,12 @@
 		8AF2D8341E7EA9770051C137 /* tic tac toe */ = {
 			isa = PBXGroup;
 			children = (
+				8A25E7691EE1F3AC00BF7E93 /* GoogleService-Info.plist */,
 				8AF2D8351E7EA9770051C137 /* AppDelegate.swift */,
 				8AF2D8371E7EA9770051C137 /* ViewController.swift */,
 				8AF2D8391E7EA9770051C137 /* Main.storyboard */,
 				8A1F35551EDAF5F800521B10 /* FancyButton.swift */,
-				8AF9414E1E8A2EC500B72E19 /* NearbuyGame.swift */,
+				8AF9414E1E8A2EC500B72E19 /* NearbyGame.swift */,
 				8AF2D8471E7EAD720051C137 /* Game.swift */,
 				8AF2D83C1E7EA9770051C137 /* Assets.xcassets */,
 				8AF2D83E1E7EA9770051C137 /* LaunchScreen.storyboard */,
@@ -103,7 +110,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Salil Malik";
 				TargetAttributes = {
 					8AF2D8311E7EA9760051C137 = {
@@ -139,6 +146,7 @@
 				8AF2D8401E7EA9770051C137 /* LaunchScreen.storyboard in Resources */,
 				8AF2D83D1E7EA9770051C137 /* Assets.xcassets in Resources */,
 				8AF2D83B1E7EA9770051C137 /* Main.storyboard in Resources */,
+				8A25E76A1EE1F3AC00BF7E93 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF2D8381E7EA9770051C137 /* ViewController.swift in Sources */,
-				8AF9414F1E8A2EC500B72E19 /* NearbuyGame.swift in Sources */,
+				8AF9414F1E8A2EC500B72E19 /* NearbyGame.swift in Sources */,
 				8A6F68571E862EBC00045F7F /* VSComputerGame.swift in Sources */,
 				8A1F35561EDAF5F800521B10 /* FancyButton.swift in Sources */,
 				8AF2D8481E7EAD720051C137 /* Game.swift in Sources */,
@@ -189,7 +197,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -197,7 +207,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -238,7 +252,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -246,7 +262,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -276,6 +296,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6FD4322Q47;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "tic tac toe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -290,6 +314,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6FD4322Q47;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "tic tac toe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

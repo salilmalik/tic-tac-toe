@@ -7,13 +7,19 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,GADBannerViewDelegate {
     
+    @IBOutlet var myBanner: GADBannerView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("ViewController")
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blackbg")!)
+        let request=GADRequest()
+        myBanner.adUnitID = "ca-app-pub-6648630816442895/1722645107"
+        myBanner.rootViewController = self
+        myBanner.delegate = self
+        myBanner.load(request)
         // Do any additional setup after loading the view, typically from a nib.
     }
     
